@@ -1,0 +1,25 @@
+server:
+  port: 8085
+  servlet:
+    context-path: /adfjapi/business
+  tomcat:
+    uri-encoding: UTF-8
+spring:
+  application:
+    name: business
+  profiles:
+    active: @profileActive@
+
+#management:
+#  endpoints:
+#    web:
+#      exposure:
+#        include: business
+
+logging:
+  file:
+    name: logs/business.log
+  level:
+    com:
+      anyuan: debug
+      alibaba: debug

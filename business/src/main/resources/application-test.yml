@@ -1,0 +1,14 @@
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.0.22:8848
+        # 命名空间 andefu
+        namespace: 8bc7b9a7-148d-45d7-9710-f1dfc20d14f4
+
+nacos:
+  config:
+    server-addr: 192.168.0.22:8848
+    # 命名空间 andefu
+    namespace: 8bc7b9a7-148d-45d7-9710-f1dfc20d14f4
+

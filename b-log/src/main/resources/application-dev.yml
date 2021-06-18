@@ -1,0 +1,13 @@
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.0.105:8848
+        # 命名空间 devolps
+        namespace: 0da0fbfb-f729-46d3-9ff2-2e3c4c95c57c
+      config:
+        server-addr: 192.168.0.105:8848
+        # 命名空间 devolps
+        namespace: 0da0fbfb-f729-46d3-9ff2-2e3c4c95c57c
+        # 拓展名
+        file-extension: yaml

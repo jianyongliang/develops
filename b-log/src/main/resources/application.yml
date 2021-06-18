@@ -1,0 +1,20 @@
+server:
+  port: 8085
+  servlet:
+    context-path: /devolps-java/blog
+  tomcat:
+    uri-encoding: UTF-8
+spring:
+  application:
+    name: blog
+  profiles:
+    active: @profileActive@
+
+
+logging:
+  file:
+    name: logs/blog.log
+  level:
+    com:
+      anyuan: debug
+      alibaba: debug
